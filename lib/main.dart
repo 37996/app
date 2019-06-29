@@ -45,6 +45,8 @@ class _ImageCarouselState extends State<ImageCarousel> with SingleTickerProvider
         new AssetImage('assets/1.jpg'),
         new AssetImage('assets/2.jpg'),
         new AssetImage('assets/3.jpg'),
+        new NetworkImage('https://cdn-images-1.medium.com/max/2000/1*GqdzzfB_BHorv7V2NV7Jgg.jpeg'),
+        new NetworkImage('https://cdn-images-1.medium.com/max/2000/1*wnIEgP1gNMrK5gZU7QS0-A.jpeg'),
       ],
       animationCurve: Curves.fastOutSlowIn,
       animationDuration: Duration(seconds: 5),
