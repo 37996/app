@@ -42,11 +42,13 @@ class _ImageCarouselState extends State<ImageCarousel> with SingleTickerProvider
     Widget carousel = new Carousel(
       boxFit: BoxFit.cover,
       images: [
-        new AssetImage('assets/1.jpg'),
-        new AssetImage('assets/2.jpg'),
-        new AssetImage('assets/3.jpg'),
-        new NetworkImage('https://cdn-images-1.medium.com/max/2000/1*GqdzzfB_BHorv7V2NV7Jgg.jpeg'),
-        new NetworkImage('https://cdn-images-1.medium.com/max/2000/1*wnIEgP1gNMrK5gZU7QS0-A.jpeg'),
+        // new AssetImage('assets/1.jpg'),
+        // new AssetImage('assets/2.jpg'),
+        // new AssetImage('assets/3.jpg'),
+        new NetworkImage('http://www.manoelfigueiredo.com/app/1.png'),
+        new NetworkImage('http://www.manoelfigueiredo.com/app/2.png'),
+        new NetworkImage('http://www.manoelfigueiredo.com/app/3.jpg'),
+        new NetworkImage('http://www.manoelfigueiredo.com/app/1.mp4'),
       ],
       animationCurve: Curves.fastOutSlowIn,
       animationDuration: Duration(seconds: 5),
